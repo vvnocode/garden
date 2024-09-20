@@ -18,8 +18,9 @@
 2. 删除文件
 	下载项目，删除无用的文件/文件夹，如/doc。
 3. 编写文档
-	所有的内容放置在`/content`目录下，用 Markdown 语言书写。可以使用obsidian打开该目录。
-4. 基础配置
+	- 所有的内容放置在`/content`目录下，用 Markdown 语言书写。可以使用obsidian打开该目录。
+	- 必须含有index.md。
+1. 基础配置
 	1. 在`quartz.config.ts`中配置整个网站的 pageTitle 和 baseUrl。如我这里的设置：  
 	    `pageTitle: " Being Nobody",`  
 	    `baseUrl: "garden.muxiao.org",`
